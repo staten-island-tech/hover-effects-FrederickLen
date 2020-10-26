@@ -1,0 +1,10 @@
+$colors: (
+  CustomRed: #ff5722,
+  white: #fff,
+  CustomBlue: #00b0ff,
+  CustomBlack: #000,
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}

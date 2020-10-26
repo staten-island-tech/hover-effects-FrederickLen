@@ -1,0 +1,26 @@
+@import "_variables.scss";
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+@import "_btn.scss";
+@import "_panda.scss";
+@import "_text-effect.scss";
+@import "_ice.scss";
+@import "_explore.scss";

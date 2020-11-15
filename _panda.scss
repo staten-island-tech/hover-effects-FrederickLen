@@ -1,11 +1,11 @@
 @import "_variables.scss";
 .panda {
-  height: 20rem;
+  height: 15rem;
   transition: all 0.3s;
-  border-radius: 50%;
+  border-radius: 60%;
 }
 .panda:hover {
-  border-radius: 20%;
-  filter: sepia(100%);
-  transform: scale(1.1);
+  border-radius: 30%;
+  filter: drop-shadow(1rem 1rem 0.3rem #7ba977);
+  transform: scale(1.2);
 }

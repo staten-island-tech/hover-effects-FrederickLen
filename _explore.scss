@@ -12,7 +12,7 @@
     opacity: 0;
     color: #fff;
     position: absolute;
-    top: 100%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: all 0.3s;
@@ -21,7 +21,7 @@
 }
 .explore:hover {
   .explore-picture {
-    filter: grayscale(90%);
+    filter: saturate(30%);
   }
   .explore-header {
     opacity: 1;
